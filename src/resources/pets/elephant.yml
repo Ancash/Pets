@@ -1,0 +1,123 @@
+#placeholder:
+#Intelligence: %ntllgnc
+#Strength: strngth
+#Health: %hlth
+#Defense: %dfns
+#Speed: %spd
+#crit chance: %crtchnc
+#crit damage: %crtdmg
+
+texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0=\""
+name: "Elephant"
+
+common:
+   abilities:
+      stomp:
+         x: 0.15
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Intelligence: &a+%ntllgnc"
+   - ""
+   - "%stomp%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&f&lCOMMON"
+   upgradePerLevel:
+      health: 1
+      intelligence: 0.75
+uncommon:
+   abilities:
+      stomp:
+         x: 0.15
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Intelligence: &a+%ntllgnc"
+   - ""
+   - "%stomp%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&a&lUNCOMMON"
+   upgradePerLevel:
+      health: 1
+      intelligence: 0.75
+rare:
+   abilities:
+      stomp:
+         x: 0.15
+      walkingFortress:
+         x: 0.01
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Intelligence: &a+%ntllgnc"
+   - ""
+   - "%stomp%"
+   - ""
+   - "%walkingFortress%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&9&lRARE"
+   upgradePerLevel:
+      health: 1
+      intelligence: 0.75
+epic:
+   abilities:
+      stomp:
+         x: 0.2
+      walkingFortress:
+         x: 0.01
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Intelligence: &a+%ntllgnc"
+   - ""
+   - "%stomp%"
+   - ""
+   - "%walkingFortress%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&5&lEPIC"
+   upgradePerLevel:
+      health: 1
+      intelligence: 0.75
+legendary:
+   abilities:
+      stomp:
+         x: 0.15
+      walkingFortress:
+         x: 0.01
+      trunkEfficiency:
+         x: 1.8
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Intelligence: &a+%ntllgnc"
+   - ""
+   - "%stomp%"
+   - ""
+   - "%walkingFortress%"
+   - ""
+   - "%trunkEfficiency%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&6&lLEGENDARY"
+   upgradePerLevel:
+      health: 1
+      intelligence: 0.75

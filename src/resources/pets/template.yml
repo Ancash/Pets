@@ -1,0 +1,42 @@
+#placeholder:
+#Intelligence: %ntllgnc
+#Strength: strngth
+#Health: %hlth
+#Defense: %dfns
+#Speed: %spd
+#crit chance: %crtchnc
+#crit damage: %crtdmg
+
+texture: 
+name: "Chicken"
+
+common:
+   abilities:
+   lore:
+   - "&f&lCOMMON"
+   base:
+   upgradePerLevel:
+uncommon:
+   abilities:
+   lore:
+   - "&a&lUNCOMMON"
+   base:
+   upgradePerLevel:
+rare:
+   abilities:
+   lore:
+   - "&9&lRARE"
+   base:
+   upgradePerLevel:
+epic:
+   abilities:
+   lore:
+   - "&5&lEPIC"
+   base:
+   upgradePerLevel:
+legendary:
+   abilities:
+   lore:
+   - "&6&lLEGENDARY"
+   base:
+   upgradePerLevel:

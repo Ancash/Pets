@@ -1,0 +1,123 @@
+#placeholder:
+#Intelligence: %ntllgnc
+#Strength: strngth
+#Health: %hlth
+#Defense: %dfns
+#Speed: %spd
+#crit chance: %crtchnc
+#crit damage: %crtdmg
+
+texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmZmYzE5NzJhY2Q3ZjNiNGE4ZjQzYjViNmM3NTM0Njk1YjhmZDYyNjc3ZTAzMDZiMjgzMTU3NGIifX19\
+name: "Rabbit"
+
+common:
+   abilities:
+      happyFeet:
+         x: 0.3
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Speed: &a+%spd"
+   - ""
+   - "%happyFeet%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&f&lCOMMON"
+   upgradePerLevel:
+      speed: 0.2
+      health: 1
+uncommon:
+   abilities:
+      happyFeet:
+         x: 0.4
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Speed: &a+%spd"
+   - ""
+   - "%happyFeet%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&a&lUNCOMMON"
+   upgradePerLevel:
+      speed: 0.2
+      health: 1
+rare:
+   abilities:
+      happyFeet:
+         x: 0.4
+      farmingXpBoost:
+         x: 0.25
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Speed: &a+%spd"
+   - ""
+   - "%happyFeet%"
+   - ""
+   - "%farmingXpBoost%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&9&lRARE"
+   upgradePerLevel:
+      speed: 0.2
+      health: 1
+epic:
+   abilities:
+      happyFeet:
+         x: 0.5
+      farmingXpBoost:
+         x: 0.3
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Speed: &a+%spd"
+   - ""
+   - "%happyFeet%"
+   - ""
+   - "%farmingXpBoost%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&5&lEPIC"
+   upgradePerLevel:
+      speed: 0.2
+      health: 1
+legendary:
+   abilities:
+      happyFeet:
+         x: 0.4
+      farmingXpBoost:
+         x: 0.25
+      efficientFarming:
+         x: 0.3
+   lore:
+   - "&8Farming Pet"
+   - ""
+   - "&7Health: &a+%hlth"
+   - "&7Speed: &a+%spd"
+   - ""
+   - "%happyFeet%"
+   - ""
+   - "%farmingXpBoost%"
+   - ""
+   - "%efficientFarming%"
+   - ""
+   - "&7Progress to Level %nextLevel%: &e%progressPercentage%%"
+   - "%progress%"
+   - ""
+   - "&6&lLEGENDARY"
+   upgradePerLevel:
+      speed: 0.2
+      health: 1
